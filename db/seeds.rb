@@ -8,14 +8,10 @@
 Quiz.create(
     "id":814,
     question:"How to remove unused data (all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes) in Docker.,",
-    description:null,
     answers:{
       answer_a:"docker system --prune",
       answer_b:"docker system prune sys",
       answer_c:"docker system prune",
-      answer_d:null,
-      answer_e:null,
-      answer_f:null
     },
     multiple_correct_answers:"false",
     correct_answers:{
@@ -27,8 +23,6 @@ Quiz.create(
       answer_f_correct:"false"
     },
     correct_answer:"answer_a",
-    explanation:null,
-    tip:null,
     tags:[{"name":"Docker"}],
     category:"Docker",
     difficulty:"Medium"
