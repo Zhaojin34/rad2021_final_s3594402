@@ -9,18 +9,18 @@ Quiz.create(
     "id":814,
     question:"How to remove unused data (all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes) in Docker.,",
     answers:{
-      answer_a:"docker system --prune",
-      answer_b:"docker system prune sys",
-      answer_c:"docker system prune",
+      "answer_a":"docker system --prune",
+      "answer_b":"docker system prune sys",
+      "answer_c":"docker system prune",
     },
     multiple_correct_answers:"false",
     correct_answers:{
-      answer_a_correct:"false",
-      answer_b_correct:"false",
-      answer_c_correct:"true",
-      answer_d_correct:"false",
-      answer_e_correct:"false",
-      answer_f_correct:"false"
+      "answer_a_correct":"false",
+      "answer_b_correct":"false",
+      "answer_c_correct":"true",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
     },
     correct_answer:"answer_a",
     tags:[{"name":"Docker"}],
