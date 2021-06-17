@@ -1,0 +1,8 @@
+<% provide(:title, "results") %>
+<h1>Result</h1>
+<p>THis time you answered <%= @correct %>/<%= @quizNumber %> questions correctly</p>
+<% @histories.each do |history| %>
+  <p>At <%= history.created_at %>, you answered <%= history.score %>/<%= history.number %> questions correctly</p>
+<% end %>
+<p><%= link_to 'Clear All', clear_histories_path %></p>
+<p><%= link_to 'Return', root_path %></p>

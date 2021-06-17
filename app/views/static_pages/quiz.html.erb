@@ -1,0 +1,33 @@
+<% provide(:title, "quiz") %>
+<h1>question. <%= @no %></h1>
+<p style="color:red"><%= @warning %></p>
+<p><%= @question %></p>
+
+<%= form_tag action: 'checkAnswer' do %>
+<% if @answer_a%>
+    <p><%= radio_button_tag(:answer, "answer_a") %>
+    <%= label_tag(:answer_a_correct, @answer_a) %></p>
+<% end %>
+<% if @answer_b%>
+    <p><%= radio_button_tag(:answer, "answer_b") %></p>
+    <%= label_tag(:answer_b_correct, @answer_b) %>
+<% end %>
+<% if @answer_c%>
+    <p><%= radio_button_tag(:answer, "answer_c") %></p>
+    <%= label_tag(:answer_c_correct, @answer_c) %>
+<% end %>
+<% if @answer_d%>
+    <p><%= radio_button_tag(:answer, "answer_d") %></p>
+    <%= label_tag(:answer_d_correct, @answer_d) %>
+<% end %>
+<% if @answer_e%>
+    <p><%= radio_button_tag(:answer, "answer_e") %></p>
+    <%= label_tag(:answer_e_correct, @answer_e) %>
+<% end %>
+<% if @answer_f%>
+    <p><%= radio_button_tag(:answer, "answer_f") %></p>
+    <%= label_tag(:answer_f_correct, @answer_f) %>
+<% end %>
+<p><%= submit_tag 'Submit' %></p>
+<% end %>
+<p><%= link_to 'Cancel', root_path %></p>

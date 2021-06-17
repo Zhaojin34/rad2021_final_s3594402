@@ -1,0 +1,623 @@
+[
+  {
+    "id":814,
+    "question":"How to remove unused data (all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes) in Docker.,",
+    "description":null,
+    "answers":{
+      "answer_a":"docker system --prune",
+      "answer_b":"docker system prune sys",
+      "answer_c":"docker system prune",
+      "answer_d":null,
+      "answer_e":null,
+      "answer_f":null
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"false",
+      "answer_b_correct":"false",
+      "answer_c_correct":"true",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+    },
+    "correct_answer":"answer_a",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"Docker"}],
+    "category":"Docker",
+    "difficulty":"Medium"
+  },
+  {
+    "id":497,
+    "question":"Which of the following attribute is used to group elements?",
+    "description":null,
+    "answers":{
+      "answer_a":"item",
+      "answer_b":"itemgroup",
+      "answer_c":"itemcheck",
+      "answer_d":"itemprop",
+      "answer_e":null,
+      "answer_f":null
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"true",
+      "answer_b_correct":"false",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+    },
+    "correct_answer":"answer_a",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"HTML"}],
+    "category":"Code",
+    "difficulty":"Easy"
+  },
+  {
+    "id":526,
+    "question":"When would you use path along with file name of a picture in an IMG tag?",
+    "description":null,
+    "answers":{
+      "answer_a":"path is optional and not necessary",
+      "answer_b":"when image file and html file both are on same location d.",
+      "answer_c":"path is always necessary when inserting image",
+      "answer_d":"when the location of image file and html file are different",
+      "answer_e":null,
+      "answer_f":null
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"false",
+      "answer_b_correct":"false",
+      "answer_c_correct":"false",
+      "answer_d_correct":"true",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+    
+    },
+    "correct_answer":"answer_a",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"HTML"}],
+    "category":"Code",
+    "difficulty":"Medium"
+    
+  },
+  {
+    "id":932,
+    "question":"What is the role of cloud controller manager?",
+    "description":null,
+    "answers":{
+      "answer_a":"cloud controller manager is an essential component for persistent storage, the abstraction of cloud-specific code from core Kubernetes code, and network routing.",
+      "answer_b":"cloud controller manager is an essential component for local storage, the fraction of cloud-specific code from non core Kubernetes code, and network routing.",
+      "answer_c":null,
+      "answer_d":null,
+      "answer_e":null,
+      "answer_f":null
+    
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"true",
+      "answer_b_correct":"false",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+    
+    },
+    "correct_answer":"answer_a",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"Kubernetes"}],
+    "category":"DevOps",
+    "difficulty":"Easy"
+    
+  },
+  {
+    "id":52,
+    "question":"Which of these commands let you view current jobs being handled by Shell?",
+    "description":null,
+    "answers":{
+      "answer_a":"view",
+      "answer_b":"jobs",
+      "answer_c":"show",
+      "answer_d":"execute",
+      "answer_e":null,
+      "answer_f":null
+    
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"false",
+      "answer_b_correct":"true",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+    
+    },
+    "correct_answer":"answer_b",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"Linux"}],
+    "category":"Linux",
+    "difficulty":"Easy"
+    
+  },
+  {
+    "id":7,
+    "question":"How do we change permissions on files",
+    "description":null,
+    "answers":{
+      "answer_a":"chown",
+      "answer_b":"chmod",
+      "answer_c":"chattr",
+      "answer_d":"lsattr",
+      "answer_e":"We Can't change them",
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"false",
+      "answer_b_correct":"true",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_b",
+    "explanation":null,
+    "tip":null,
+    "tags":[
+      {"name":"Linux"},
+      {"name":"BASH"}
+      ],
+    "category":"Linux",
+    "difficulty":"Easy"
+    
+  },
+  {
+    "id":331,
+    "question":"What is the best advantage of InnoDB over MyISAM?",
+    "description":null,
+    "answers":{
+      "answer_a":"InnoDB is thread safe",
+      "answer_b":"InnoDB provides a transaction safe environment",
+      "answer_c":"InnoDB can handle table with more than 1000 columns",
+      "answer_d":"InnoDB provides FULLTEXT indexes",
+      "answer_e":"None of the above",
+      "answer_f":"All of the above"
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"true",
+      "answer_b_correct":"false",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_a",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"MySQL"}],
+    "category":"SQL",
+    "difficulty":"Hard"
+    
+  },
+  {
+    "id":771,
+    "question":"Which of the following type of variables are whole numbers, without a decimal point, like 4195?",
+    "description":null,
+    "answers":{
+      "answer_a":"Integers",
+      "answer_b":"Doubles",
+      "answer_c":"Booleans",
+      "answer_d":"Strings",
+      "answer_e":null,
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"true",
+      "answer_b_correct":"false",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_a",
+    "explanation":"Integers: are whole numbers, without a decimal point, like 763211.",
+    "tip":null,
+    "tags":[{"name":"PHP"}],
+    "category":"Code",
+    "difficulty":"Easy"
+    
+  },
+  {
+    "id":36,
+    "question":"A virtual filesystem created dynamically by Linux that contains information about system resources is:",
+    "description":null,
+    "answers":{
+      "answer_a":"\/proc",
+      "answer_b":"\/boot",
+      "answer_c":"\/mkdir",
+      "answer_d":"\/system",
+      "answer_e":null,
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"true",
+      "answer_b_correct":"false",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_a",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"Linux"}],
+    "category":"Linux",
+    "difficulty":"Hard"
+    
+  },
+  {
+    "id":550,
+    "question":"Which sign is used to access a variable of  a variable in PHP?",
+    "description":null,
+    "answers":{
+      "answer_a":"$$",
+      "answer_b":"$|",
+      "answer_c":"#@",
+      "answer_d":"$",
+      "answer_e":null,
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"true",
+      "answer_b_correct":"false",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_a",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"PHP"}],
+    "category":"Code",
+    "difficulty":"Medium"
+    
+  },
+  {
+    "id":853,
+    "question":"How to stop a docker container immediately?",
+    "description":null,
+    "answers":{
+      "answer_a":"$ docker terminate",
+      "answer_b":"$ docker kill",
+      "answer_c":"$ docker stop",
+      "answer_d":null,
+      "answer_e":null,
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"false",
+      "answer_b_correct":"true",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_b",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"Docker"}],
+    "category":"Docker",
+    "difficulty":"Easy"
+    
+  },
+  {
+    "id":45,
+    "question":"Which of the answers listed below refers to a package management system most often used on Debian and Debian-based Linux distributions?",
+    "description":null,
+    "answers":{
+      "answer_a":"kde",
+      "answer_b":"apt",
+      "answer_c":"yum",
+      "answer_d":"rpm",
+      "answer_e":null,
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"false",
+      "answer_b_correct":"true",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_b",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"Linux"}],
+    "category":"Linux",
+    "difficulty":"Easy"
+    
+  },
+  {
+    "id":695,
+    "question":"Which command can be used to change file access permission bits?",
+    "description":null,
+    "answers":{
+      "answer_a":"chmod",
+      "answer_b":"chown",
+      "answer_c":"umask",
+      "answer_d":"chperm",
+      "answer_e":null,
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"true",
+      "answer_b_correct":"false",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_a",
+    "explanation":null,
+    "tip":null,
+    "tags":[
+      {"name":"BASH"},
+      {"name":"Linux"}
+    ],
+    "category":"Linux",
+    "difficulty":"Easy"
+    
+  },
+  {
+    "id":211,
+    "question":"You have to sort records in the descending order by field \"rating\". Which query will be correct?",
+    "description":null,
+    "answers":{
+      "answer_a":"SORT BY \"rating\" DESC",
+      "answer_b":"SORT BY \"rating\"",
+      "answer_c":"ORDER BY \"rating\" DESC",
+      "answer_d":"ORDER BY \"rating\"",
+      "answer_e":null
+      ,"answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"false",
+      "answer_b_correct":"false",
+      "answer_c_correct":"true",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_a",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"MySQL"}],
+    "category":"SQL",
+    "difficulty":"Easy"
+    
+  },
+  {
+    "id":856,
+    "question":"How to upload a docker image with the image name mentioned in the command to Docker Hub.",
+    "description":null,
+    "answers":{
+      "answer_a":"$ docker put geekflare\/httpd_image",
+      "answer_b":"$ docker upload geekflare\/httpd_image",
+      "answer_c":"$ docker push geekflare\/httpd_image",
+      "answer_d":null,
+      "answer_e":null,
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"false",
+      "answer_b_correct":"false",
+      "answer_c_correct":"true",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_c",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"Docker"}],
+    "category":"Docker",
+    "difficulty":"Medium"
+    
+  },
+  {
+    "id":844,
+    "question":"How to pull the Apache HTTP server image.",
+    "description":null,
+    "answers":{
+      "answer_a":"$ docker pull http img",
+      "answer_b":"$ docker pull httpd img",
+      "answer_c":"$ docker pull httpd",
+      "answer_d":null,
+      "answer_e":null,
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"false",
+      "answer_b_correct":"false",
+      "answer_c_correct":"true",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_c",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"Docker"}],
+    "category":"Docker",
+    "difficulty":"Medium"
+    
+  },
+  {
+    "id":917,
+    "question":"How to define a service without a selector?",
+    "description":null,
+    "answers":{
+      "answer_a":"Specify the external name",
+      "answer_b":"Specify an endpoint with IP",
+      "answer_c":"Address and port Just by specifying the IP address",
+      "answer_d":"Specifying the label and api-version",
+      "answer_e":null,
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"true",
+      "answer_b_correct":"false",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_a",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"Kubernetes"}],
+    "category":"DevOps",
+    "difficulty":"Medium"
+    
+  },
+  {
+    "id":827,
+    "question":"Docker containers are based on open standard",
+    "description":null,
+    "answers":{
+      "answer_a":"Allowing containers to run on all major Linux distributions and Microsoft operating systems",
+      "answer_b":"Allowing containers to run on all Microsoft operating systems only",
+      "answer_c":"Allowing containers to run on all major Linux distributions only",
+      "answer_d":null,
+      "answer_e":null,
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"true",
+      "answer_b_correct":"false",
+      "answer_c_correct":"false",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_a",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"Docker"}],
+    "category":"Docker",
+    "difficulty":"Medium"
+    
+  },
+  {
+    "id":16,
+    "question":"Which command is used to create new directory?",
+    "description":null,
+    "answers":{
+      "answer_a":"dir",
+      "answer_b":"newdir",
+      "answer_c":"mkdir",
+      "answer_d":"cdir",
+      "answer_e":null,
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"false",
+      "answer_b_correct":"false",
+      "answer_c_correct":"true",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_c",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"Linux"}],
+    "category":"Linux",
+    "difficulty":"Easy"
+    
+  },
+  {
+    "id":77,
+    "question":"Which one of these variables has an illegal name?",
+    "description":null,
+    "answers":{
+      "answer_a":"$myVar",
+      "answer_b":"$my_Var",
+      "answer_c":"$my-Var",
+      "answer_d":"$MyVar",
+      "answer_e":null,
+      "answer_f":null
+      
+    },
+    "multiple_correct_answers":"false",
+    "correct_answers":{
+      "answer_a_correct":"false",
+      "answer_b_correct":"false",
+      "answer_c_correct":"true",
+      "answer_d_correct":"false",
+      "answer_e_correct":"false",
+      "answer_f_correct":"false"
+      
+    },
+    "correct_answer":"answer_c",
+    "explanation":null,
+    "tip":null,
+    "tags":[{"name":"PHP"}],
+    "category":"",
+    "difficulty":"Medium"
+    
+  }
+]
+  
+  

@@ -1,0 +1,7 @@
+<% provide(:title, "Quiz+") %>
+<h1>Quiz+</h1>
+<p>Please enter 0 to 20 questions</p>
+  <%= form_tag action: 'setQuestionNumber' do %>
+    <p><%= text_field_tag 'question_number', @question_number %></p>
+    <%= submit_tag 'Start your quiz here' %>
+  <% end %>
